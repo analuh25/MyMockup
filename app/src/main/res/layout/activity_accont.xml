@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+< androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/comfortaabold"
+        android:text="Create "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_anchorGravity="end"
+        app:layout_anchor= "@+id/te"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/notosansextrabold"
+        android:text="Account "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Start"
+        android:background="@drawable/retangulo"
+        android:layout_marginTop="550dp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
